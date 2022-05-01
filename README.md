@@ -16,7 +16,7 @@ Images of this Smart Watch - an ESP32 based Smart Watch
 ![](images/isometric_view.png)
 
 # Bottom Side
-![](images/bottom_side_3.png)
+![](images/bottom_side.png)
 
 # Routed Board
 ![](images/routing_view.png)
