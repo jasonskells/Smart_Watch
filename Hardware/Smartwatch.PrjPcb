@@ -188,6 +188,10 @@ DocumentUniqueId=TEPNMGDF
 DocumentPath=Project Outputs for Smartwatch\Design Rule Check - Smartwatch.html
 DItemRevisionGUID=
 
+[Parameter1]
+Name=Title
+Value=Board Power
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
