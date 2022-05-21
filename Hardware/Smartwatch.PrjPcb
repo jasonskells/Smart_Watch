@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -23,8 +23,8 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=1
-AutoCrossReferences=0
+AutoSheetNumbering=0
+AutoCrossReferences=1
 NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
@@ -37,12 +37,12 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
+CrossRefSheetStyle=2
 CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
+CrossRefFollowFromMainSettings=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -189,8 +189,12 @@ DocumentPath=Project Outputs for Smartwatch\Design Rule Check - Smartwatch.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Title
-Value=Board Power
+Name=Revision
+Value=1
+
+[Parameter2]
+Name=Project_title
+Value=Smartwatch
 
 [Configuration1]
 Name=Sources
