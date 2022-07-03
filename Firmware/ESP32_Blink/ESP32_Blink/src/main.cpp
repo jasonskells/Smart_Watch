@@ -3,7 +3,6 @@
 
 extern "C"
 {
-<<<<<<< HEAD
     static const char *TAG = "MAIN";
 
     void blink()
@@ -37,11 +36,5 @@ extern "C"
         gpio_pad_select_gpio(GPIO_NUM_2);
         ESP_ERROR_CHECK(gpio_set_direction(GPIO_NUM_2, GPIO_MODE_OUTPUT));
         blink();
-=======
-    void app_main()
-    {
-        static const char *TAG = "MAIN";
-        ESP_LOGD(TAG, "Hello World");
->>>>>>> a43ca49dcd6d1726c43297c5308f41e623606748
     }
 }
