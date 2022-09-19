@@ -7,7 +7,11 @@ The schematic and PCB layout was done in Altium Designer and the ESP32 firmware 
 Images of this Smart Watch - an ESP32 based Smart Watch
 ------------
 # Schematic
-![](images/schematic_pic.png)
+![](images/board_power.png)
+![](images/mcu_and_display.png)
+![](images/sensors.png)
+![](images/io_expander.png)
+
 
 # Top Side
 ![](images/top_side.png)
