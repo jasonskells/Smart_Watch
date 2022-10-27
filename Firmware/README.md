@@ -14,37 +14,47 @@ To see all the commands of the tool type: `idf.py --help`
 
 ## Create a New Project
 
-In the Firmware directory run the following commands:
-`idf.py create-project <PROJECT NAME>`
-`idf.py set-target esp32c3`
-`idf.py menuconfig` <- To set framework configurations
+In the Firmware directory run the following commands:  
+```
+idf.py create-project <PROJECT NAME> 
+idf.py set-target esp32c3
+idf.py menuconfig <- if you want to modify the menuconfig
+```
 
 ## Build Project
 
 In the project file, run:
-`idf.py build` 
+```
+idf.py build
+```
 
 ## Flash Project on Board
 
 Plug in the development board and run:
 
-`idf.py flash` <- This will automatically build and flash
+```
+idf.py flash <- This will automatically build and flash
+``` 
 
 you can also specify the exact port to use via:
 
-`idf.py -p PORT flash
+```
+idf.py -p PORT flash
+```
 
 ## Monitor the Board 
 
-**Note to use on Windows you must 
-
 To monitor the board, run the idf command:
 
-`idf.py monitor`
+```
+idf.py monitor
+```
 
 again you can specify the exact port to use 
 
-`idf.py -p PORT monitor`
+```
+idf.py -p PORT monitor
+```
 
 ## Additional Notes 
 
