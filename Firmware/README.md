@@ -58,4 +58,16 @@ idf.py -p PORT monitor
 
 ## Additional Notes 
 
-If you are running Windows, I highly recommend just using WSL and either running in on WSL or use WSL as the commandline for performing idf.py. This is because idf.py officially does not support the use of GitBash. While most commands work, I realized that idf.py menuconfig does not work. 
+If you are running Windows, I highly recommend just using WSL and either running in on WSL or use WSL as the commandline for performing idf.py. This is because idf.py officially does not support the use of GitBash. While most commands work, I realized that idf.py menuconfig does not work.
+
+Useful Linux Aliases
+```
+alias get_idf='. $HOME/esp/esp-idf/export.sh'
+alias idfb='idf.py build'
+alias idff='idf.py flash'   
+alias idfm='idf.py monitor'
+          
+idfcp () {
+   idf.py create-project $1 && cd ./$1 && idf.py set-target esp32c3 && idf.py menuconfig
+}
+```
